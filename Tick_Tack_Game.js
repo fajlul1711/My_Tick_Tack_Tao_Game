@@ -16,6 +16,7 @@ var rset = document.getElementById('reset')
 
 rset.addEventListener('click', ()=>{
     click.play()
+    music.pause()
     var boxtexts=document.querySelectorAll('.boxtext')
     Array.from(boxtexts).forEach(element =>{
         element.innerText=""
